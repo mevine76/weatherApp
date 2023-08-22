@@ -1,0 +1,24 @@
+*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 400px;
+    height: 200vh;
+    background-color: #d6d4d4;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.sunnI {
+    margin: auto;
+    display: block;
+    width: 40%;
+
+    
+}
