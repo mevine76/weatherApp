@@ -13,21 +13,10 @@ const options2 = {
     }
 };
 
-fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${paris}&appid=01ed09787471c3c54b3e051988071182`)
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=Toulouse&appid=01ed09787471c3c54b3e051988071182&units=metric&lang=fr`)
   .then(response => response.json())
-  .then(response => {
-    for (const dt_txt of response.results) {
-        dt.innerHTML+= `
-        
-
-        
-        
-        
-        
-        
-        
-        `
-    }
+  .then(data => {
+    console.log(data.name)
 }
  )
 //  .catch(err => console.error(err));
